@@ -1,3 +1,4 @@
+// Problem 1: http://projecteuler.net/index.php?section=problems&id=1
 #include <stdio.h>
 
 int main()

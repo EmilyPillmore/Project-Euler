@@ -1,5 +1,4 @@
-; This alias will solve Problem 1 of Project Euler
-; http://projecteuler.net/index.php?section=problems&id=1
+; Problem 1: http://projecteuler.net/index.php?section=problems&id=1
 
 alias EU1 {
   ; Set out variables
