@@ -22,3 +22,4 @@ Alias EU2 {
   ; Print the sum.
   echo -a %sum
 }
+
