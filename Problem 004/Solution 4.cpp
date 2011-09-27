@@ -1,4 +1,5 @@
-// Problem 4: http://projecteuler.net/index.php?section=problems&id=4
+/* Solves http://projecteuler.net/problem=4 */
+
 #include <stdio.h>
 #include <string>
 #include <sstream>

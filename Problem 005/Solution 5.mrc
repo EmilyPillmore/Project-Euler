@@ -1,4 +1,4 @@
-; Problem 5: http://projecteuler.net/index.php?section=problems&id=5
+; Solves http://projecteuler.net/problem=5
 ; Please note that while this will solve the problem, mIRC will become
 ; unresponsive for awhile during the calculations.
 

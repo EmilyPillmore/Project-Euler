@@ -1,3 +1,5 @@
+/* Solves http://projecteuler.net/problem=10 */
+
 #include <stdio.h>
 
 int Prime(int number)

@@ -1,3 +1,5 @@
+/* Solves http://projecteuler.net/problem=9 */
+
 #include <stdio.h>
 
 int main()

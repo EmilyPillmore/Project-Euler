@@ -1,4 +1,4 @@
-/* http://projecteuler.net/index.php?section=problems&id=7 */
+/* Solves http://projecteuler.net/problem=7 */
 #include <stdio.h>
 
 /* Check if the given number is prime */

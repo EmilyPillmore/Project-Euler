@@ -1,4 +1,4 @@
-; Problem 2: http://projecteuler.net/index.php?section=problems&id=2
+; Solves http://projecteuler.net/problem=2
 
 Alias EU2 {
   ; Set the variables

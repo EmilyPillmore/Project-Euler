@@ -1,4 +1,4 @@
-/* http://projecteuler.net/index.php?section=problems&id=6 */
+/* Solves http://projecteuler.net/problem=6 */
 #include <stdio.h>
 
 int main()
