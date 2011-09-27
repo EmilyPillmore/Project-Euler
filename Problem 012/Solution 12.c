@@ -22,7 +22,6 @@ int main()
 		divisors = 0;
 
 		/* Check every number under number/2 */
-//		for(check = 1; check <= number/2; check++)
 		for(check = 1; check <= sqrt(number); check++)
 		{
 			if(number % check == 0) divisors++;
