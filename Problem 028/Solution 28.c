@@ -9,7 +9,7 @@ int main()
 	int sum = 0;
 	int a = 0;
 
-	for( i = 3; i <= 1001; i += 2)
+	for(i = 3; i <= 1001; i += 2)
 	{
 		a = 0;
 
@@ -26,7 +26,7 @@ int main()
 		}
 	}
 
-	printf("The final sum of the corners is: %d\r\n", sum+1);
+	printf("Answer: %d\r\n", sum+1);
 
 	return 0;
 }
