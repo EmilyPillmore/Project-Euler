@@ -25,5 +25,8 @@ int main()
 			}
 		}
 	}
-	printf("Product: %d\r\n", product);
+
+	printf("Answer: %d\r\n", product);
+
+	return 0;
 }

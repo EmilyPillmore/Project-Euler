@@ -16,5 +16,5 @@ alias EU1 {
   }
 
   ; Print the answer.
-  echo -a %sum
+  echo -a Answer: %sum
 }

@@ -25,4 +25,6 @@ int main()
 
 	/* Print the answer */
 	printf("Answer: %d\r\n", sum);
+
+	return 0;
 }

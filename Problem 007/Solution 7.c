@@ -34,4 +34,6 @@ int main()
 
 	/* Print the answer */
 	printf("Answer: %d\r\n",pc);
+
+	return 0;
 }

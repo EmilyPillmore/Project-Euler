@@ -12,5 +12,5 @@ if __FILE__ == $0
 
 	sq_sum *= sq_sum
 
-	print "Difference: ", sq_sum-sum, "\n"
+	print "Answer: ", sq_sum-sum, "\n"
 end

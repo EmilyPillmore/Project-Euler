@@ -34,4 +34,5 @@ int main()
 
 	printf("Answer: %f\r\n", sum);
 
+	return 0;
 }

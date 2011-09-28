@@ -20,6 +20,6 @@ Alias EU2 {
   }
 
   ; Print the sum.
-  echo -a %sum
+  echo -a Answer: %sum
 }
 

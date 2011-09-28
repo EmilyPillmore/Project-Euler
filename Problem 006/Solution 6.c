@@ -20,5 +20,7 @@ int main()
 	sq_sum = sq_sum*sq_sum;
 
 	/* Print the results. */
-	printf("Difference: %d\r\n", sq_sum-sum);
+	printf("Answer: %d\r\n", sq_sum-sum);
+
+	return 0;
 }

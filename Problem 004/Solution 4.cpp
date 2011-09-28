@@ -59,4 +59,6 @@ int main()
 
 	// Print the biggest.
 	printf("Answer: %d\r\n", largestp);
+
+	return 0;
 }

@@ -33,5 +33,8 @@ int main()
 			largeprod = prod;
 		}
 	}
-	printf("Largest product of 5 consecutive numbers: %d\r\n", largeprod);
+
+	printf("Answer: %d\r\n", largeprod);
+
+	return 0;
 }
