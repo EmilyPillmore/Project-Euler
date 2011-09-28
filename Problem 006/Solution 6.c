@@ -6,7 +6,6 @@ int main()
 	/* Vars */
 	int sum = 0;
 	int sq_sum = 0;
-	int diff = 0;
 	int n = 0;
 
 	/* For every number under and including 100. */
@@ -19,10 +18,7 @@ int main()
 	}
 	/* Square sq_sum and find the difference. */
 	sq_sum = sq_sum*sq_sum;
-	diff = sq_sum-sum;
 
 	/* Print the results. */
-	printf("Sum of the squares: %d\r\n", sum);
-	printf("Square of the sums: %d\r\n", sq_sum);
-	printf("Difference: %d\r\n", diff);
+	printf("Difference: %d\r\n", sq_sum-sum);
 }
