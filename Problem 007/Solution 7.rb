@@ -24,9 +24,8 @@ if __FILE__ == $0
 	pc = 3
 
 	while(1)
-		if(CheckPrime(pc) == 1)
-			x += 1
-		end
+		x += 1 if(CheckPrime(pc) == 1)
+
 		if x == 10001
 			break
 		end
