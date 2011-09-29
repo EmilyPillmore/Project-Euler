@@ -7,9 +7,7 @@ if __FILE__ == $0
 
 	# This loops while i and the number are different
 	while i != number
-		if(number % i == 0)
-			number /= i
-		end
+		number /= i if(number % i == 0)
 
 		i += 1
 	end
