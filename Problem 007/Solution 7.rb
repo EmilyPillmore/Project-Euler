@@ -19,19 +19,17 @@ def CheckPrime(number)
 	return 1
 end
 
-if __FILE__ == $0
-	x = 1
-	pc = 3
+x = 1
+pc = 3
 
-	while(1)
-		x += 1 if(CheckPrime(pc) == 1)
+while(1)
+	x += 1 if(CheckPrime(pc) == 1)
 
-		if x == 10001
-			break
-		end
-
-		pc += 2
+	if x == 10001
+		break
 	end
 
-	print "Answer: ", pc, "\n"
+	pc += 2
 end
+
+print "Answer: ", pc, "\n"
