@@ -8,9 +8,7 @@ if __FILE__ == $0
 	last = 1
 
 	while x <= 4000000
-		if (x % 2 == 0)
-			sum += x
-		end
+		sum += x if (x % 2 == 0)
 
 		last = x
 		x += y
