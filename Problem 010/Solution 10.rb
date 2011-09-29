@@ -19,16 +19,13 @@ def CheckPrime(number)
 end
 
 
-if __FILE__ == $0
+sum = 2
+number = 3
 
-	sum = 2
-	number = 3
-
-	for number in (3..2000000)
-		if(CheckPrime(number) == 1)
-			sum += number
-		end
+for number in (3..2000000)
+	if(CheckPrime(number) == 1)
+		sum += number
 	end
-
-	print "Answer: ", sum, "\n"
 end
+
+print "Answer: ", sum, "\n"
