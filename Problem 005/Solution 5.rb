@@ -13,9 +13,7 @@ if __FILE__ == $0
 
 		# Loop to check if it's divisible by 1-20
 		for y in (1..20)
-			if (x % y == 0)
-				check += 1
-			end
+			check += 1 if(x % y == 0)
 		end
 
 		if check == 20
