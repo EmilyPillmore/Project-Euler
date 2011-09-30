@@ -8,9 +8,7 @@ def CheckPrime(number)
 	limit = number
 
 	while x < limit
-		if (number % x == 0)
-			return 0
-		end
+		return 0 if (number % x == 0)
 
 		limit = number / x
 		x += 2
@@ -24,11 +22,7 @@ pc = 3
 
 while(1)
 	x += 1 if(CheckPrime(pc) == 1)
-
-	if x == 10001
-		break
-	end
-
+	break if x == 10001
 	pc += 2
 end
 
