@@ -107,4 +107,4 @@ numbers.each do |i|
 	sum += i.to_i
 end
 
-puts sum.to_s[0,10]
+print "Answer: ", sum.to_s[0,10], "\n"
