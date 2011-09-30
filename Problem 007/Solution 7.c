@@ -23,12 +23,10 @@ int main()
 	int pc = 3;
 
 	/* Loop until we break */
-	while(1)
+	while(x != 10001)
 	{
-		printf("Checking: %d\r\n", pc);
 		/* If we find a prime, incrase x, if x is 10001, break the loop */
 		if(Prime(pc) == 1) x++;
-		if(x == 10001) break;
 		pc += 2;
 	}
 
