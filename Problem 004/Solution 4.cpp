@@ -39,15 +39,14 @@ int main()
 	int largestp = 0;
 
 	// Start the first number at 999 and decrease by 1 each time
-	for(int n1 = 999; n1 > 0; n1--)
+	for(int n1 = 999; n1 >= 100; n1--)
 	{
 		// Start the second number at 999 and decrease by 1 each time
-		for(int n2 = 999; n2 > 0; n2--)
+		for(int n2 = 999; n2 >= 100; n2--)
 		{
 			// Call the palindrome check
 			if(CheckPalindrome(n1*n2) == 1)
 			{
-				printf("Palindrome: %d\r\n",n1*n2);
 				if(largestp < (n1*n2))
 				{
 					// If the found one is bigger than the previous, set it.
