@@ -20,9 +20,8 @@ end
 x = 1
 pc = 3
 
-while(1)
+while(x != 10001)
 	x += 1 if(CheckPrime(pc) == 1)
-	break if x == 10001
 	pc += 2
 end
 
