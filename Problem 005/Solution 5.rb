@@ -13,11 +13,9 @@ while(1)
 		check += 1 if(x % y == 0)
 	end
 
-	if check == 20
-		break
-	else
-		check = 0
-	end
+	break if check == 20
+
+	check = 0
 end
 
 print "Answer: ", x, "\n"
