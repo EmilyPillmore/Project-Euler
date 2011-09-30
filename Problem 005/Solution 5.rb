@@ -2,7 +2,6 @@
 
 x = 0
 check = 0
-y = 0
 
 while(1)
 	# We only check multiples of 10 because it has
