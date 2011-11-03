@@ -19,14 +19,13 @@ int main()
 				{
 					if(a*a + b*b == c*c)
 					{
-						product = a*b*c;
+						printf("Answer: %d\r\n", a*b*c);
+						return 0;
 					}
 				}
 			}
 		}
 	}
-
-	printf("Answer: %d\r\n", product);
 
 	return 0;
 }
