@@ -4,11 +4,9 @@ for a in (1..1000)
 	for b in (1..1000)
 		for c in (1..1000)
 			if((a+b+c == 1000) && (a*a + b*b == c*c))
-				product = a*b*c
-				break
+				print "Answer: ", a*b*c, "\n"
+				exit(0)
 			end
 		end
 	end
 end
-
-print "Answer: ", product, "\n"
