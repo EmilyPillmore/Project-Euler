@@ -16,7 +16,6 @@ int main()
 	/* Loop while divisors is under 500 */
 	while(divisors <= 250)
 	{
-		printf("Checking: %d\r\n", number);
 		number += counter;
 		check = 1;
 		divisors = 0;
