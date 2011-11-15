@@ -6,7 +6,6 @@ counter = 1
 divisors = 0
 
 while (divisors <= 250)
-	puts number
 	number += counter
 	check = 1
 	divisors = 0
