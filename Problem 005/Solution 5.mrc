@@ -14,7 +14,6 @@ alias EU5 {
     ; Only check numbers ending in 0, since to be divisible by 10 or 20 it must
     ; end in 0
     inc %x 10
-    echo -a Checking: %x
 
     ; Check if it's divisible by every number, 1-20
     while (%y <= 20) {
