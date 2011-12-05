@@ -1,5 +1,7 @@
 # Solves http://projecteuler.net/problem=4
 
+largestp = 0
+
 (999.downto 100).each do |a|
 	(999.downto 100).each do |b|
 		sum = a*b
