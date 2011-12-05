@@ -1,4 +1,4 @@
-# Solves http://projecteuler.net/problem=58
+# Solves http://projecteuler.net/problem=4
 
 (999.downto 100).each do |a|
 	(999.downto 100).each do |b|
