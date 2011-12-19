@@ -6,13 +6,10 @@ int Prime(int number)
 {
 	/* 1 and 2 are prime, but we don't care. */
         int x = 3;
-        while(x < number)
-        {
-		/* The number isn't prime */
-                if(number % x == 0) return 0;
-		/* We only check odd numbers */
-                x += 2;
-        }
+	for(x = 3; x < number; x += 2)
+	{
+		if(number % x == 0) return 0;
+	}
         return 1;
 }
 
