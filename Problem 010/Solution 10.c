@@ -19,7 +19,7 @@ int Prime(int number)
 int main()
 {
 	/* We start off with a sum of 2 because 2 is a prime and we only check odd numbers. */
-	double sum = 2.0;
+	double sum = 2;
 	int number = 3;
 
 	/* Loop for every odd number under 2 milion */
@@ -28,11 +28,10 @@ int main()
 		if(Prime(number))
 		{
 			sum += number;
-			printf("Sum: %f\r\n", sum);
 		}
 	}
 
-	printf("Answer: %f\r\n", sum);
+	printf("Answer: %.0f\r\n", sum);
 
 	return 0;
 }
