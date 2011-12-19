@@ -2,7 +2,7 @@
 
 sum = 0
 
-for counter in (1..999)
+for counter in (1...1000)
 	sum += counter if((counter%3 == 0) || (counter%5==0))
 end
 
