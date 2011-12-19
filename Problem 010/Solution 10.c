@@ -6,13 +6,17 @@ int Prime(int number)
 {
         /* 1 and 2 are prime, but we don't care.*/
         int x = 3;
-        while(x < number)
+	int limit = number;
+
+        while(x < limit)
         {
                 /* The number isn't prime */
                 if(number % x == 0) return 0;
 		/* We only check odd numbers */
-                x += 2;
+                limit = number / x;
+		x += 2;
         }
+
         return 1;
 }
 
@@ -25,10 +29,7 @@ int main()
 	/* Loop for every odd number under 2 milion */
 	for (number = 3; number < 2000000; number += 2)
 	{
-		if(Prime(number))
-		{
-			sum += number;
-		}
+		if(Prime(number)) sum += number;
 	}
 
 	printf("Answer: %.0f\r\n", sum);
