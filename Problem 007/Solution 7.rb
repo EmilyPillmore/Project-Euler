@@ -22,7 +22,7 @@ pc = 3
 
 while(x != 10001)
 	x += 1 if(CheckPrime(pc) == 1)
-	pc += 2
+	pc += 2 if (x != 10001)
 end
 
 print "Answer: ", pc, "\n"
