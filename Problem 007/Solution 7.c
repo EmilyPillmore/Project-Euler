@@ -11,7 +11,6 @@ int main()
 	/* Loop until we break */
 	for(primecount = 0, number = 1; primecount != 10001; number += 2)
 	{
-		printf("Count: %d\r\n", primecount);
 		/* If we find a prime, incrase x
 			if x is 10001, break the loop */
 		if(IsPrime(number) == 1)
