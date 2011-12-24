@@ -1,4 +1,5 @@
 <?php
+/* Solves http://projecteuler.net/problem=1 */
 /* Declare variables */
 $counter = 1;
 $sum = 0;
