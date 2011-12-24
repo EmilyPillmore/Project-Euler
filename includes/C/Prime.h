@@ -24,6 +24,8 @@ int IsPrime(int number)
 		/* If this hits the number isn't prime. */
 		if(number % x == 0)
 			return 0;
+
+		limit = number / x;
 	}
 
 	/* Number is prime. */
