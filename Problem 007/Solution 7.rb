@@ -1,28 +1,12 @@
 # Solves http://projecteuler.net/problem=7
+require '../includes/Ruby/Prime.rb'
 
-def CheckPrime(number)
+primecount = 1
+number = 3
 
-	# We start at 3 because 1 and 2 are prime, and we don't
-	# check them
-	x = 3
-	limit = number
-
-	while x < limit
-		return 0 if (number % x == 0)
-
-		limit = number / x
-		x += 2
-	end
-
-	return 1
+while(primecount != 10001)
+	primecount += 1 if(IsPrime(number) == 1)
+	number += 2 if (primecount != 10001)
 end
 
-x = 1
-pc = 3
-
-while(x != 10001)
-	x += 1 if(CheckPrime(pc) == 1)
-	pc += 2 if (x != 10001)
-end
-
-print "Answer: ", pc, "\n"
+print "Answer: ", number, "\n"
