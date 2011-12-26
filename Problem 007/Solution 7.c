@@ -5,8 +5,8 @@
 int main()
 {
 	/* Set vars */
-	int primecount = 0;
-	int number = 1;
+	int primecount;
+	int number;
 
 	/* Loop until we break */
 	for(primecount = 0, number = 1; primecount != 10001; number += 2)
@@ -14,8 +14,9 @@ int main()
 		/* If we find a prime, incrase x
 			if x is 10001, break the loop */
 		if(IsPrime(number) == 1)
-			primecount++;
+			++primecount;
 
+		/* If primecount is 10001 then break the loop. */
 		if(primecount == 10001)
 			break;
 
