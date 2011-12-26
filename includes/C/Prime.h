@@ -45,7 +45,7 @@ void SeiveE(char table[], int number)
 		table[x] = 0;
 
 	for(x = 3; x <= number; x += 2)
-		for(y = x*2; y <= number-x; y += x)
+		for(y = x*2; y <= number; y += x)
 			table[y] = 0;
 
 	return;
