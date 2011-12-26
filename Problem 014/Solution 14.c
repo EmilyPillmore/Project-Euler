@@ -16,11 +16,10 @@ size_t Odd(size_t number)
 int main()
 {
 	/* Our variables. */
-	int l_number = 0;
 	size_t check;
+	int l_number = 0;
 	int l_counter = 0;
-	int counter;
-	int i;
+	int counter, i;
 
 	/* We only check odd numbers because any even number will have a shorter
 		chain since it's just being divided by two all the way down to 1. */
