@@ -9,23 +9,15 @@ int main()
 
 	/* Giant for nest to check every possible combination */
 	for(a = 1; a <= 1000; a++)
-	{
 		for(b = 1; b <= 1000; b++)
-		{
 			for(c = 1; c <= 1000; c++)
-			{
 				/*Check if a+b+c is 1000, if it is check if aquared + bsquared = csquared. If it does fuckyeah we win. */
 				if(a+b+c == 1000)
-				{
 					if(a*a + b*b == c*c)
 					{
 						printf("Answer: %d\r\n", a*b*c);
 						return 0;
 					}
-				}
-			}
-		}
-	}
 
 	return 0;
 }
