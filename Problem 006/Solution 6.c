@@ -6,7 +6,7 @@ int main()
 	/* Vars */
 	int sum = 0;
 	int sq_sum = 0;
-	int n = 0;
+	int n;
 
 	/* For every number under and including 100. */
 	for(n = 0; n <= 100; n++)
