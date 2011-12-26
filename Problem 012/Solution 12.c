@@ -9,9 +9,9 @@ int main()
 {
 	/* vars */
 	int number = 0;
-	int check = 0;
+	int check;
 	int counter = 1;
-	int divisors = 0;
+	int divisors;
 
 	/* Loop while divisors is under 500 */
 	while(divisors <= 250)
@@ -21,12 +21,11 @@ int main()
 		divisors = 0;
 
 		/* Check every number under number/2 */
-		for(check = 1; check <= sqrt(number); check++)
-		{
-			if(number % check == 0) divisors++;
-		}
+		for(check = 1; check <= sqrt(number); ++check)
+			if(number % check == 0)
+				++divisors;
 
-		counter++;
+		++counter;
 
 	}
 
