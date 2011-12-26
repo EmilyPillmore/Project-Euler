@@ -7,7 +7,7 @@ int main()
 	/* Define the variables */
 	int x = 1;
 	int y = 1;
-	int last = 1;
+	int last;
 	int sum = 0;
 
 	/* Check every number under 4 milion */
@@ -15,7 +15,8 @@ int main()
 	{
 
 		/* If the checking number is even, add it to the sum */
-		if (x % 2 == 0) sum += x;
+		if (x % 2 == 0)
+			sum += x;
 
 		/* Set last to x, x to x+y, y to last. */
 		last = x;
