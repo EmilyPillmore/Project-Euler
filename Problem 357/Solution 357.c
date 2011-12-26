@@ -6,9 +6,8 @@ int main()
 {
 	/* Creates an array for primes */
 	char *table = (char*) malloc(sizeof(char) * 100000000);
-	int x, y;
+	int x, y, b;
 	double sum = 0;
-	int b;
 
 	/* Set all numbers to 1 to begin with. */
 	for(x = 1; x <= 100000000; ++x)
