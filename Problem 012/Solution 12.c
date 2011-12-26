@@ -9,9 +9,8 @@ int main()
 {
 	/* vars */
 	int number = 0;
-	int check;
+	int check, divisors;
 	int counter = 1;
-	int divisors;
 
 	/* Loop while divisors is under 500 */
 	while(divisors <= 250)
