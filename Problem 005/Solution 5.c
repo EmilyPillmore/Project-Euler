@@ -18,10 +18,9 @@ int main()
 		x += 10;
 
 		/* Check if it's divisible by 1-20 */
-		for(y=1;y<=20;y++)
-		{
-			if(x % y == 0) check++;
-		}
+		for(y = 1; y <= 20; ++y)
+			if(x % y == 0)
+				++check;
 
 	}
 
