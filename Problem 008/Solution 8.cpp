@@ -29,9 +29,7 @@ int main()
 
 		// Check to see if this is larger than the previous
 		if (prod > largeprod)
-		{
 			largeprod = prod;
-		}
 	}
 
 	printf("Answer: %d\r\n", largeprod);
