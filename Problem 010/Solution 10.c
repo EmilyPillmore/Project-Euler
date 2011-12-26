@@ -10,10 +10,13 @@ int main()
 		and we only check odd numbers. */
 	double sum = 2;
 	int number;
+	char *table = (char*) malloc(sizeof(char) * 2000000);
+
+	SeiveE(table, 2000000);
 
 	/* Loop for every odd number under 2 milion */
 	for (number = 3; number < 2000000; number += 2)
-		if(IsPrime(number))
+		if(table[number] == 1)
 			sum += number;
 
 	printf("Answer: %.0f\r\n", sum);
