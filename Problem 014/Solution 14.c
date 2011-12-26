@@ -17,10 +17,10 @@ int main()
 {
 	/* Our variables. */
 	int l_number = 0;
-	size_t check = 0;
+	size_t check;
 	int l_counter = 0;
-	int counter = 0;
-	int i = 1;
+	int counter;
+	int i;
 
 	/* We only check odd numbers because any even number will have a shorter
 		chain since it's just being divided by two all the way down to 1. */
@@ -35,7 +35,7 @@ int main()
 			else
 				check = Odd(check);
 
-			counter++;
+			++counter;
 
 		}
 
