@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../includes/C/Prime.h"
+#include "../includes/C/Seive.h"
 
 int main()
 {
