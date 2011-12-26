@@ -4,10 +4,9 @@
 
 int main()
 {
-	int i;
+	int i, a;
 	int Corner[4];
 	int sum = 1;
-	int a;
 
 	for(i = 3; i <= 1001; i += 2)
 	{
