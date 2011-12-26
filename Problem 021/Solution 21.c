@@ -5,13 +5,11 @@
 int d(int num)
 {
 	int sum = 0;
-	int i = 1;
+	int i;
 
-	for(i = 1; i <= num-1; i++)
-	{
+	for(i = 1; i <= num-1; ++i)
 		if (num % i == 0)
 			sum += i;
-	}
 
 	return sum;
 }
@@ -22,23 +20,20 @@ int checknum(int num)
 	int n2 = d(n1);
 
 	if ((num == n2) && (n1 != n2))
-	{
 		return num;
-	}
-	else {
+	else
 		return 0;
-	}
 }
 
 
 int main()
 {
-	int i = 1;
+	int i;
 	int sum = 0;
-	for(i = 1; i <= 10000; i++)
-	{
+	for(i = 1; i <= 10000; ++i)
 		sum += checknum(i);
-	}
 
 	printf("Answer: %d\r\n", sum);
+
+	return 0;
 }
