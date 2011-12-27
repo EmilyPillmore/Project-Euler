@@ -15,8 +15,8 @@ int IsPrime(int number)
 		return 0;
 
 	/* Declare variables */
-	int x = 3;
-	int limit = number;
+	int x;
+	int limit = number; // This will make the search faster
 
 	/* Loop while x < limit. */
 	for(x = 3; x < limit; x += 2)
@@ -25,6 +25,8 @@ int IsPrime(int number)
 		if(number % x == 0)
 			return 0;
 
+		/* Making the limit number/x instead of just number
+			we gain a noticable speed increase */
 		limit = number / x;
 	}
 
