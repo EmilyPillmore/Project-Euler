@@ -18,8 +18,9 @@ void SeiveE(char table[], int number)
 	/* Loop for every odd number and set every number divisible by a
 		previous number to 0 */
 	for(x = 3; x <= number; x += 2)
-		for(y = x*2; y <= number; y += x)
-			table[y] = 0;
+		if(table[x] == 1)
+			for(y = x*2; y <= number; y += x)
+				table[y] = 0;
 
 	return;
 }
