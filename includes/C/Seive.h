@@ -7,13 +7,12 @@ void SeiveE(char table[], int number)
 	/* Declare our variables */
 	int x, y;
 
-	/* Loop for every number and set them to 1 */
+	/* Loop for every number, set evens to 0 and odds to 1 */
 	for(x = 1; x <= number; ++x)
-		table[x] = 1;
-
-	/* Loop for every even number (except 2) and set them to 0 */
-	for(x = 4; x <= number; x += 2)
-		table[x] = 0;
+		if(x % 2 == 0 && x != 2)
+			table[x] = 0;
+		else
+			table[x] = 1;
 
 	/* Loop for every odd number and set every number divisible by a
 		previous number to 0 */
