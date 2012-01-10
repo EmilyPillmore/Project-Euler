@@ -19,10 +19,7 @@ int checknum(int num)
 	int n1 = d(num);
 	int n2 = d(n1);
 
-	if ((num == n2) && (n1 != n2))
-		return num;
-	else
-		return 0;
+	return (num == n2 && n1 != n2) ? num : 0;
 }
 
 
