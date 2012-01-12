@@ -25,8 +25,6 @@ int main()
 		chain since it's just being divided by two all the way down to 1. */
 	for(i = 1; i <= 1000000; i+=2)
 	{
-		check = i;
-		counter = 0;
 		for(check = i, counter = 0; check != 1; ++counter)
 			check = (check % 2 == 0) ? Even(check) : Odd(check);
 
