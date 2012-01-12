@@ -27,16 +27,8 @@ int main()
 	{
 		check = i;
 		counter = 0;
-		while (check != 1)
-		{
-			if (check % 2 == 0)
-				check = Even(check);
-			else
-				check = Odd(check);
-
-			++counter;
-
-		}
+		for(check = i, counter = 0; check != 1; ++counter)
+			check = (check % 2 == 0) ? Even(check) : Odd(check);
 
 		if (l_counter < counter)
 		{
