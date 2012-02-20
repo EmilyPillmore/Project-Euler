@@ -8,7 +8,7 @@ int main()
 	int i;
 
 	/* This loops until i is the same as the number */
-	for(i = 2; i != number; i++)
+	for(i = 2; i != number; ++i)
 		/* If the number is divisible by i, do the math
 		otherwise continue looping */
 		if(number % i == 0)
