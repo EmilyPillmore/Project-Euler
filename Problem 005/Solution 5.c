@@ -5,9 +5,7 @@
 int main()
 {
 	/* Set the variables */
-	int x = 0;
-	int check;
-	int y = 1;
+	int x = 0, y = 1, check;
 
 	/* Loop until we break it */
 	while(check != 20)
