@@ -4,8 +4,7 @@
 
 int main()
 {
-	int a, b, c = 1;
-	int product = 1;
+	int a, b, c;
 
 	/* Giant for nest to check every possible combination */
 	for(a = 1; a <= 1000; a++)
