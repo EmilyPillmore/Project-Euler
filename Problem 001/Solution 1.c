@@ -5,8 +5,7 @@
 int main()
 {
 	/* Set the variables. */
-	int counter;
-	int sum = 0;
+	int counter, sum = 0;
 
 	/* While checking every number under 1000 */
 	for(counter = 1; counter < 1000; ++counter)
