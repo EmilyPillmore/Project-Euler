@@ -4,12 +4,10 @@
 int main()
 {
 	/* Vars */
-	int sum = 0;
-	int sq_sum = 0;
-	int n;
+	int sum = 0, sq_sum = 0, n;
 
 	/* For every number under and including 100. */
-	for(n = 0; n <= 100; n++)
+	for(n = 0; n <= 100; ++n)
 	{
 		/* sum is the sum of the squared numbers
 		sq_sum is the sum of the numbers to be squared later. */
