@@ -5,10 +5,7 @@
 int main()
 {
 	/* Define the variables */
-	int x = 1;
-	int y = 1;
-	int last;
-	int sum = 0;
+	int x = 1, y = 1, sum = 0, last;
 
 	/* Check every number under 4 milion */
 	while (x <= 4000000)
