@@ -5,8 +5,7 @@
 int main()
 {
 	/* Set vars */
-	int primecount;
-	int number;
+	int primecount, number;
 
 	/* Loop until we break */
 	for(primecount = 0, number = 1; primecount != 10001; number += 2)
