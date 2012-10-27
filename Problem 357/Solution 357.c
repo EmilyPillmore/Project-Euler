@@ -1,7 +1,7 @@
 /* Solves http://projecteuler.net/problem=357 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "../includes/C/Seive.h"
+#include "../includes/C/Sieve.h"
 
 int main()
 {
