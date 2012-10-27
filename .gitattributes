@@ -1,0 +1,2 @@
+# Standardize line endings.
+*.mrc eol=crlf
